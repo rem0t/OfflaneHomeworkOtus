@@ -13,6 +13,30 @@
 		312A1ECC260384900089E5B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 312A1ECB260384900089E5B1 /* Assets.xcassets */; };
 		312A1ECF260384900089E5B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 312A1ECE260384900089E5B1 /* Preview Assets.xcassets */; };
 		312A1ED2260384900089E5B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 312A1ED0260384900089E5B1 /* LaunchScreen.storyboard */; };
+		312A1EDE26038A320089E5B1 /* FeedJobsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312A1EDD26038A320089E5B1 /* FeedJobsList.swift */; };
+		312A1EE226038ACD0089E5B1 /* MainJobList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312A1EE126038ACD0089E5B1 /* MainJobList.swift */; };
+		313E9E50260B3E2700FC51C4 /* JobService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313E9E4F260B3E2700FC51C4 /* JobService.swift */; };
+		313E9E53260B3E6200FC51C4 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313E9E52260B3E6200FC51C4 /* NetworkService.swift */; };
+		313E9E56260B3E8200FC51C4 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313E9E55260B3E8200FC51C4 /* DatabaseService.swift */; };
+		313E9E59260B3EB500FC51C4 /* LoadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313E9E58260B3EB500FC51C4 /* LoadService.swift */; };
+		313E9E5D260B3F2400FC51C4 /* Jobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313E9E5C260B3F2400FC51C4 /* Jobs.swift */; };
+		313E9E62260B3F6300FC51C4 /* Jobs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 313E9E60260B3F6300FC51C4 /* Jobs.xcdatamodeld */; };
+		313E9E65260B408700FC51C4 /* ServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313E9E64260B408700FC51C4 /* ServiceLocator.swift */; };
+		313E9E69260B423E00FC51C4 /* ViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313E9E68260B423E00FC51C4 /* ViewControllers.swift */; };
+		313E9E6C260B425300FC51C4 /* UserDefaultsName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313E9E6B260B425300FC51C4 /* UserDefaultsName.swift */; };
+		313E9E70260B42CA00FC51C4 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313E9E6F260B42CA00FC51C4 /* AppConfig.swift */; };
+		313E9E75260B435E00FC51C4 /* JobViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313E9E74260B435E00FC51C4 /* JobViewModel.swift */; };
+		313E9E79260B438300FC51C4 /* JobsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313E9E78260B438300FC51C4 /* JobsViewModel.swift */; };
+		313E9E7D260B710900FC51C4 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313E9E7C260B710900FC51C4 /* ActivityIndicatorView.swift */; };
+		313E9E81260B713000FC51C4 /* NavControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313E9E80260B713000FC51C4 /* NavControllerViewModel.swift */; };
+		313E9E84260B715000FC51C4 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313E9E83260B715000FC51C4 /* Screen.swift */; };
+		313E9E87260B71E000FC51C4 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313E9E86260B71E000FC51C4 /* Navigation.swift */; };
+		313E9E8A260B728C00FC51C4 /* NavControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313E9E89260B728C00FC51C4 /* NavControllerView.swift */; };
+		313E9E8E260B821B00FC51C4 /* JobCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313E9E8D260B821B00FC51C4 /* JobCell.swift */; };
+		313E9E91260B835200FC51C4 /* JobScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313E9E90260B835200FC51C4 /* JobScreen.swift */; };
+		313E9E94260B841D00FC51C4 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313E9E93260B841D00FC51C4 /* Error.swift */; };
+		313E9E99260B86DD00FC51C4 /* FakeNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313E9E98260B86DD00FC51C4 /* FakeNavBar.swift */; };
+		313E9E9C260B97CD00FC51C4 /* GlobalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313E9E9B260B97CD00FC51C4 /* GlobalExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +48,30 @@
 		312A1ECE260384900089E5B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		312A1ED1260384900089E5B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		312A1ED3260384900089E5B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		312A1EDD26038A320089E5B1 /* FeedJobsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedJobsList.swift; sourceTree = "<group>"; };
+		312A1EE126038ACD0089E5B1 /* MainJobList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainJobList.swift; sourceTree = "<group>"; };
+		313E9E4F260B3E2700FC51C4 /* JobService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobService.swift; sourceTree = "<group>"; };
+		313E9E52260B3E6200FC51C4 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		313E9E55260B3E8200FC51C4 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		313E9E58260B3EB500FC51C4 /* LoadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadService.swift; sourceTree = "<group>"; };
+		313E9E5C260B3F2400FC51C4 /* Jobs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jobs.swift; sourceTree = "<group>"; };
+		313E9E61260B3F6300FC51C4 /* Jobs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jobs.xcdatamodel; sourceTree = "<group>"; };
+		313E9E64260B408700FC51C4 /* ServiceLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLocator.swift; sourceTree = "<group>"; };
+		313E9E68260B423E00FC51C4 /* ViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllers.swift; sourceTree = "<group>"; };
+		313E9E6B260B425300FC51C4 /* UserDefaultsName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsName.swift; sourceTree = "<group>"; };
+		313E9E6F260B42CA00FC51C4 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		313E9E74260B435E00FC51C4 /* JobViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobViewModel.swift; sourceTree = "<group>"; };
+		313E9E78260B438300FC51C4 /* JobsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsViewModel.swift; sourceTree = "<group>"; };
+		313E9E7C260B710900FC51C4 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		313E9E80260B713000FC51C4 /* NavControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavControllerViewModel.swift; sourceTree = "<group>"; };
+		313E9E83260B715000FC51C4 /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		313E9E86260B71E000FC51C4 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		313E9E89260B728C00FC51C4 /* NavControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavControllerView.swift; sourceTree = "<group>"; };
+		313E9E8D260B821B00FC51C4 /* JobCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCell.swift; sourceTree = "<group>"; };
+		313E9E90260B835200FC51C4 /* JobScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobScreen.swift; sourceTree = "<group>"; };
+		313E9E93260B841D00FC51C4 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		313E9E98260B86DD00FC51C4 /* FakeNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeNavBar.swift; sourceTree = "<group>"; };
+		313E9E9B260B97CD00FC51C4 /* GlobalExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +104,8 @@
 		312A1EC42603848E0089E5B1 /* OfflieneCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				312A1EDC260389970089E5B1 /* Views */,
+				312A1EDB2603895B0089E5B1 /* Logic */,
 				312A1EC52603848E0089E5B1 /* AppDelegate.swift */,
 				312A1EC72603848E0089E5B1 /* SceneDelegate.swift */,
 				312A1EC92603848E0089E5B1 /* ContentView.swift */,
@@ -73,6 +123,100 @@
 				312A1ECE260384900089E5B1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		312A1EDB2603895B0089E5B1 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				313E9E93260B841D00FC51C4 /* Error.swift */,
+				313E9E73260B434200FC51C4 /* ViewModel */,
+				313E9E6E260B42B700FC51C4 /* AppConfig */,
+				313E9E67260B422600FC51C4 /* DataName */,
+				313E9E5B260B3F0F00FC51C4 /* CoreData */,
+				313E9E4E260B3DFA00FC51C4 /* Services */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		312A1EDC260389970089E5B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				313E9E8C260B807C00FC51C4 /* Job */,
+				313E9E7B260B444200FC51C4 /* Extensions */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		313E9E4E260B3DFA00FC51C4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				313E9E55260B3E8200FC51C4 /* DatabaseService.swift */,
+				313E9E4F260B3E2700FC51C4 /* JobService.swift */,
+				313E9E52260B3E6200FC51C4 /* NetworkService.swift */,
+				313E9E58260B3EB500FC51C4 /* LoadService.swift */,
+				313E9E64260B408700FC51C4 /* ServiceLocator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		313E9E5B260B3F0F00FC51C4 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				313E9E5C260B3F2400FC51C4 /* Jobs.swift */,
+				313E9E60260B3F6300FC51C4 /* Jobs.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		313E9E67260B422600FC51C4 /* DataName */ = {
+			isa = PBXGroup;
+			children = (
+				313E9E68260B423E00FC51C4 /* ViewControllers.swift */,
+				313E9E6B260B425300FC51C4 /* UserDefaultsName.swift */,
+			);
+			path = DataName;
+			sourceTree = "<group>";
+		};
+		313E9E6E260B42B700FC51C4 /* AppConfig */ = {
+			isa = PBXGroup;
+			children = (
+				313E9E6F260B42CA00FC51C4 /* AppConfig.swift */,
+			);
+			path = AppConfig;
+			sourceTree = "<group>";
+		};
+		313E9E73260B434200FC51C4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				313E9E74260B435E00FC51C4 /* JobViewModel.swift */,
+				313E9E78260B438300FC51C4 /* JobsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		313E9E7B260B444200FC51C4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				313E9E7C260B710900FC51C4 /* ActivityIndicatorView.swift */,
+				313E9E80260B713000FC51C4 /* NavControllerViewModel.swift */,
+				313E9E83260B715000FC51C4 /* Screen.swift */,
+				313E9E86260B71E000FC51C4 /* Navigation.swift */,
+				313E9E89260B728C00FC51C4 /* NavControllerView.swift */,
+				313E9E98260B86DD00FC51C4 /* FakeNavBar.swift */,
+				313E9E9B260B97CD00FC51C4 /* GlobalExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		313E9E8C260B807C00FC51C4 /* Job */ = {
+			isa = PBXGroup;
+			children = (
+				312A1EDD26038A320089E5B1 /* FeedJobsList.swift */,
+				312A1EE126038ACD0089E5B1 /* MainJobList.swift */,
+				313E9E8D260B821B00FC51C4 /* JobCell.swift */,
+				313E9E90260B835200FC51C4 /* JobScreen.swift */,
+			);
+			path = Job;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +289,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				313E9E65260B408700FC51C4 /* ServiceLocator.swift in Sources */,
+				313E9E62260B3F6300FC51C4 /* Jobs.xcdatamodeld in Sources */,
+				312A1EE226038ACD0089E5B1 /* MainJobList.swift in Sources */,
+				313E9E59260B3EB500FC51C4 /* LoadService.swift in Sources */,
+				313E9E75260B435E00FC51C4 /* JobViewModel.swift in Sources */,
+				313E9E8E260B821B00FC51C4 /* JobCell.swift in Sources */,
+				313E9E9C260B97CD00FC51C4 /* GlobalExtensions.swift in Sources */,
+				313E9E69260B423E00FC51C4 /* ViewControllers.swift in Sources */,
+				313E9E50260B3E2700FC51C4 /* JobService.swift in Sources */,
+				313E9E99260B86DD00FC51C4 /* FakeNavBar.swift in Sources */,
+				313E9E70260B42CA00FC51C4 /* AppConfig.swift in Sources */,
 				312A1EC62603848E0089E5B1 /* AppDelegate.swift in Sources */,
+				313E9E87260B71E000FC51C4 /* Navigation.swift in Sources */,
+				313E9E79260B438300FC51C4 /* JobsViewModel.swift in Sources */,
 				312A1EC82603848E0089E5B1 /* SceneDelegate.swift in Sources */,
+				313E9E91260B835200FC51C4 /* JobScreen.swift in Sources */,
 				312A1ECA2603848E0089E5B1 /* ContentView.swift in Sources */,
+				312A1EDE26038A320089E5B1 /* FeedJobsList.swift in Sources */,
+				313E9E5D260B3F2400FC51C4 /* Jobs.swift in Sources */,
+				313E9E6C260B425300FC51C4 /* UserDefaultsName.swift in Sources */,
+				313E9E8A260B728C00FC51C4 /* NavControllerView.swift in Sources */,
+				313E9E84260B715000FC51C4 /* Screen.swift in Sources */,
+				313E9E81260B713000FC51C4 /* NavControllerViewModel.swift in Sources */,
+				313E9E7D260B710900FC51C4 /* ActivityIndicatorView.swift in Sources */,
+				313E9E56260B3E8200FC51C4 /* DatabaseService.swift in Sources */,
+				313E9E94260B841D00FC51C4 /* Error.swift in Sources */,
+				313E9E53260B3E6200FC51C4 /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +513,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		313E9E60260B3F6300FC51C4 /* Jobs.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				313E9E61260B3F6300FC51C4 /* Jobs.xcdatamodel */,
+			);
+			currentVersion = 313E9E61260B3F6300FC51C4 /* Jobs.xcdatamodel */;
+			path = Jobs.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 312A1EBA2603848E0089E5B1 /* Project object */;
 }
